@@ -502,7 +502,7 @@ body {
     background: rgba(242, 242, 242, 0.04);
 }
 
-.btn-register {
+.container-register .btn-register {
     color: #111;
     background-color: #FFFFFF;
 }
@@ -567,6 +567,7 @@ body {
     border-radius: 12px;
     padding: 16px 40px;
     cursor: pointer;
+    margin: 0px 0px 20px;
     background: linear-gradient(90deg, #00ffc2 0%, #42ff00 100%);;
 }
 
@@ -594,6 +595,7 @@ body {
     font-size: 15px;
     font-weight: 400;
     text-align: center;
+    margin: 0px 0px 20px;
 }
 
 .networks .container-network {
@@ -632,28 +634,11 @@ body {
     bottom: 22%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.xd {
+/* Footer */
+footer {
     width: 100%;
+    height: 100%;
     height: 50vh;
-    background-color: red;
+    background-color: rgba(255, 255, 255, 0.6);
 }
+
